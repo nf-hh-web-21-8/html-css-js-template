@@ -21,12 +21,12 @@ console.log(`
 - the headline should be blue
 `);
 
-// 1.+ 2.
+// 1. + 2. Add the HTML as a string
 document.querySelector("#root").innerHTML += `
 <h1 class="main-headline">It works!</h1>
 `;
 
-// 3. + 4.
+// 3. + 4. Add the CSS as a string
 document.head.innerHTML += `<style>
 .main-headline {
     color: blue;
