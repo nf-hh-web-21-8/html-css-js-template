@@ -1,0 +1,31 @@
+{
+  "name": "html-css-js-template",
+  "version": "1.0.0",
+  "description": "a template for web-development",
+  "main": "n.a.",
+  "type": "module",
+  "keywords": [
+    "html",
+    "css",
+    "js",
+    "template"
+  ],
+  "author": "Gregor Adams",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node tools/browser-sync.js",
+    "prettier": "npx prettier --check .",
+    "stylelint": "npx stylelint *.css",
+    "lint": "npm run prettier"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.27.7",
+    "prettier": "^2.5.1",
+    "stylelint": "^13.13.1",
+    "stylelint-a11y": "^1.2.3",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-property-sort-order-smacss": "^7.1.0",
+    "stylelint-config-standard": "^22.0.0",
+    "stylelint-order": "^4.1.0"
+  }
+}
