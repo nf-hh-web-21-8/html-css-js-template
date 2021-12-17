@@ -1,0 +1,49 @@
+@import "palette.css";
+
+:root {
+  /* BRAND COLORS
+       Use the primary/secondary as background;
+       Use the primary/secondary-contrast-color for text and/or icons
+    */
+  --primary: var(--blue-700);
+  --primary-contrast-color: var(--white);
+  --secondary: var(--yellow-300);
+  --secondary-contrast-color: var(--black);
+
+  /* SHAPES
+       These variables can be used to shape the corners of elements
+       @example
+       .button {
+           border-radius: var(--shape-m);
+       }
+     */
+  --shape-s: 3px;
+  --shape-m: 6px;
+  --shape-l: 9px;
+
+  /* PAGE */
+  --background: var(--grey-100);
+  --color: var(--black);
+
+  /* PAPER */
+  --paper-background: var(--white);
+  --paper-color: var(--black);
+
+  /* BORDERS */
+  --border-color: var(--grey-300);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* PAGE */
+    --background: var(--grey-900);
+    --color: var(--white);
+
+    /* PAPER */
+    --paper-background: var(--grey-800);
+    --paper-color: var(--white);
+
+    /* BORDERS */
+    --border-color: var(--grey-700);
+  }
+}
