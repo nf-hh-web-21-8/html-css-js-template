@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #ddd;
+  font-family: sans-serif;
+}
+
+.Grid {
+  display: grid;
+  gap: 1rem;
+  max-width: 60rem;
+  margin: auto;
+  padding: 1rem;
+}
+
+@media (min-width: 30rem) {
+  .Grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.Card {
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: white;
+  color: black;
+}
+
+.Card-header {
+  border-bottom: 1px solid;
+}
+
+.Card-media {
+  margin: 0;
+}
+
+.Card-media img {
+  display: block;
+  width: 50%;
+  margin: 1rem auto;
+}
