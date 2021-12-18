@@ -3,17 +3,12 @@ import path from "path";
 import browserSync from "browser-sync";
 
 browserSync({
-  open: false,
-  cors: true,
+  open: true,
   port: 3000,
-  ghostMode: {
-    clicks: false,
-    forms: false,
-    scroll: false,
-  },
+  ghostMode: false,
   server: {
     index: "index.html",
     baseDir: path.resolve(process.cwd(), "public"),
   },
-  files: [, "public/{**/*,*}.{css,html,js}"],
+  files: ["public/{**/*,*}.{css,html,js}"],
 });
