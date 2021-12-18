@@ -1,0 +1,50 @@
+:root {
+  --background: #ddd;
+  --color: #000;
+  --paper-background: #fff;
+  --paper-color: #000;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #333;
+    --color: #fff;
+    --paper-background: #222;
+    --paper-color: #fff;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--background);
+  font-family: "Open Sans", sans-serif;
+}
+
+.Card {
+  max-width: 20rem;
+  margin: 2rem auto;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: var(--paper-background);
+  color: var(--paper-color);
+}
+
+.Card-header {
+  border-bottom: 1px solid;
+}
+
+.Card-media {
+  margin: 0;
+}
+
+.Card-media img {
+  display: block;
+  width: 50%;
+  margin: 1rem auto;
+}
