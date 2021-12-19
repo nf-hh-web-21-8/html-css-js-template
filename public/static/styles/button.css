@@ -1,7 +1,7 @@
 @import "palette.css";
 @import "theme.css";
 
-.button {
+.Button {
   --shade: hsla(0, 0%, 0%, 0);
 
   padding: 0.5rem 1rem;
@@ -12,20 +12,20 @@
   color: var(--black);
 }
 
-.button:hover {
+.Button:hover {
   --shade: hsla(0, 0%, 0%, 0.1);
 }
 
-.button:active {
+.Button:active {
   --shade: hsla(0, 0%, 0%, 0.2);
 }
 
-.button--primary {
+.Button--primary {
   background-color: var(--primary);
   color: var(--primary-contrast-color);
 }
 
-.button--secondary {
+.Button--secondary {
   background-color: var(--secondary);
   color: var(--secondary-contrast-color);
 }
