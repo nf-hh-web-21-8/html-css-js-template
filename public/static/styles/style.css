@@ -1,1 +1,22 @@
 @import "base.css";
+
+.Header {
+  max-width: 80rem;
+  margin: 1rem 3rem;
+}
+.Main {
+  max-width: 80rem;
+  margin: 1rem 3rem;
+}
+
+.MainNav a {
+  display: block;
+  max-width: max-content;
+  padding: 0.5rem;
+  color: currentColor;
+  text-decoration: none;
+}
+
+.MainNav a:hover {
+  text-decoration: underline;
+}
