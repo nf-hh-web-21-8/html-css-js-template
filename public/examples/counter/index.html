@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/styles/base.css" />
+    <link rel="stylesheet" href="/static/styles/card.css" />
+  </head>
+  <body>
+    <div class="Cards">
+      <article class="Card" data-js="card">
+        <div class="Card-content">
+          <p>Button clicked: <span data-js="counter">0</span></p>
+        </div>
+        <footer class="Card-footer">
+          <button class="button button--primary" data-js="button">
+            Click me
+          </button>
+        </footer>
+      </article>
+      <article class="Card" data-js="card">
+        <footer class="Card-footer">
+          <button class="button button--primary" data-js="button">
+            Click me
+          </button>
+        </footer>
+      </article>
+      <article class="Card" data-js="card">
+        <div class="Card-content">
+          <p>Button clicked: <span data-js="counter">0</span></p>
+        </div>
+        <footer class="Card-footer">
+          <button class="button button--primary" data-js="button">
+            Click me
+          </button>
+        </footer>
+      </article>
+    </div>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
