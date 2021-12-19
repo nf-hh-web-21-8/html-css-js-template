@@ -1,0 +1,31 @@
+@import "palette.css";
+@import "theme.css";
+
+.button {
+  --shade: hsla(0, 0%, 0%, 0);
+
+  padding: 0.5rem 1rem;
+  border: 0;
+  border-radius: var(--shape-m);
+  background-color: var(--grey-300);
+  background-image: linear-gradient(var(--shade), var(--shade));
+  color: var(--black);
+}
+
+.button:hover {
+  --shade: hsla(0, 0%, 0%, 0.1);
+}
+
+.button:active {
+  --shade: hsla(0, 0%, 0%, 0.2);
+}
+
+.button--primary {
+  background-color: var(--primary);
+  color: var(--primary-contrast-color);
+}
+
+.button--secondary {
+  background-color: var(--secondary);
+  color: var(--secondary-contrast-color);
+}

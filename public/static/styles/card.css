@@ -1,0 +1,104 @@
+@import "palette.css";
+@import "theme.css";
+@import "button.css";
+
+.Cards {
+  display: grid;
+  gap: 1rem;
+  max-width: 80rem;
+  margin: auto;
+  padding: 1rem;
+}
+
+@media (min-width: 30rem) {
+  .Cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 60rem) {
+  .Cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.Card {
+  display: grid;
+  padding: 2rem 1rem;
+  border-radius: var(--shape-s);
+  background-color: var(--paper-background);
+  color: var(--paper-color);
+}
+
+.Card-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 -1rem;
+  padding: 2rem 1rem 1rem;
+}
+
+.Card-header:first-child {
+  margin: -2rem -1rem 0;
+  border-radius: var(--shape-s) var(--shape-s) 0 0;
+}
+
+.Card-title {
+  flex-grow: 1;
+  margin: 0;
+  font-size: 2em;
+  font-weight: 700;
+  line-height: 1.25;
+  text-transform: capitalize;
+}
+
+.Card-media {
+  display: flex;
+  flex-direction: column;
+  margin: 0 -1rem;
+}
+
+.Card-media:first-child {
+  margin-top: -2rem;
+  border-top-left-radius: var(--shape-s);
+  border-top-right-radius: var(--shape-s);
+}
+
+.Card-media:last-child {
+  margin-bottom: -2rem;
+  border-bottom-right-radius: var(--shape-s);
+  border-bottom-left-radius: var(--shape-s);
+}
+
+.Card-media img {
+  width: 100%;
+  border-radius: inherit;
+}
+
+.Card-footer {
+  align-self: flex-end;
+  margin: 0 -1rem -2rem;
+  padding: 1rem;
+  border-radius: 0 0 var(--shape-s) var(--shape-s);
+}
+
+.Card-content {
+  display: flex;
+  flex-direction: column;
+  margin: 0 -1rem;
+  padding: 1rem;
+}
+
+.Card-content:first-child {
+  margin-top: -2rem;
+  border-top-left-radius: var(--shape-s);
+  border-top-right-radius: var(--shape-s);
+}
+
+.Card-content:last-child {
+  margin-bottom: -2rem;
+  border-bottom-right-radius: var(--shape-s);
+  border-bottom-left-radius: var(--shape-s);
+}
