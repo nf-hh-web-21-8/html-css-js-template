@@ -1,0 +1,98 @@
+@import "/static/styles/base.css";
+@import "/static/styles/grid.css";
+@import "/static/styles/card.css";
+@import "/static/styles/table.css";
+
+.white {
+  --pokemon-color: var(--white);
+}
+.red {
+  --pokemon-color: var(--red-300);
+}
+.orange {
+  --pokemon-color: var(--orange-300);
+}
+.yellow {
+  --pokemon-color: var(--yellow-300);
+}
+.green {
+  --pokemon-color: var(--green-300);
+}
+.blue {
+  --pokemon-color: var(--blue-300);
+}
+.purple {
+  --pokemon-color: var(--purple-300);
+}
+.brown {
+  --pokemon-color: var(--brown-300);
+}
+
+.HealthPoints {
+  color: var(--red-700);
+  font-size: 2rem;
+  text-align: center;
+}
+
+.Card {
+  background-color: var(--pokemon-color);
+  background-image: url(./cloud.png), url(./cloud.png);
+  background-blend-mode: overlay;
+  background-repeat: repeat-x;
+  background-position: -200% 200%, 200% -200%;
+  background-size: 250% auto;
+  box-shadow: inset 0 0 0 0.75rem var(--yellow-500);
+  color: var(--black);
+}
+
+.Card-media {
+  align-items: flex-end;
+  margin: 0 1rem;
+  background-image: linear-gradient(
+    to bottom right,
+    var(--blue-900),
+    var(--orange-700)
+  );
+  box-shadow: inset 0 0 0 0.5rem var(--yellow-500);
+}
+
+.Card-media img {
+  width: 80%;
+  height: 300px;
+}
+
+.Evolution {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-bottom: 0.25rem;
+  background-image: linear-gradient(
+    to right,
+    var(--yellow-500),
+    var(--yellow-100)
+  );
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: 100% 3px;
+}
+
+.Description {
+  display: block;
+  margin: 1rem;
+  padding: 0.5rem;
+  box-shadow: inset 0 0 0 3px var(--yellow-500);
+}
+
+.Credits {
+  display: block;
+  width: 100%;
+  font-size: 0.5rem;
+  text-align: justify;
+}
+
+.Ability {
+  margin: 0 1rem;
+  color: var(--blue-700);
+  font-weight: 700;
+  text-transform: capitalize;
+}
