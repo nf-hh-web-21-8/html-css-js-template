@@ -9,10 +9,14 @@
   margin: 1rem 3rem;
 }
 
+.MainNav > div {
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 48px;
+}
 .MainNav a {
-  display: block;
+  display: inline-block;
   max-width: max-content;
-  padding: 0.5rem;
   color: currentColor;
   text-decoration: none;
 }
