@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #ddd;
+  font-family: sans-serif;
+}
+
+.Cards {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 60rem;
+  margin: auto;
+  padding: 1rem;
+}
+
+@media (min-width: 30rem) {
+  .Cards {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.Card {
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: white;
+  color: black;
+}
+
+.Card h2 {
+  font-size: 1em;
+  font-weight: normal;
+}
+
+.Card-media {
+  margin: 0;
+}
+
+.Card-media img {
+  display: block;
+  width: 100%;
+}

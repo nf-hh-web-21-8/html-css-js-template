@@ -1,0 +1,202 @@
+[
+  {
+    "name": "Apocalypse",
+    "image": "/static/images/marvel/apocalypse.jpg"
+  },
+  {
+    "name": "Black Panther",
+    "image": "/static/images/marvel/black_panther.jpg"
+  },
+  {
+    "name": "Captain America",
+    "image": "/static/images/marvel/captain_america.jpg"
+  },
+  {
+    "name": "Cyclops",
+    "image": "/static/images/marvel/cyclops.jpg"
+  },
+  {
+    "name": "Daredevil",
+    "image": "/static/images/marvel/daredevil.jpg"
+  },
+  {
+    "name": "Dark Phoenix",
+    "image": "/static/images/marvel/dark_phoenix.jpg"
+  },
+  {
+    "name": "Deadpool",
+    "image": "/static/images/marvel/deadpool.jpg"
+  },
+  {
+    "name": "Doctor Doom",
+    "image": "/static/images/marvel/doctor_doom.jpg"
+  },
+  {
+    "name": "Doctor Strange",
+    "image": "/static/images/marvel/doctor_strange.jpg"
+  },
+  {
+    "name": "Elektra",
+    "image": "/static/images/marvel/elektra.jpg"
+  },
+  {
+    "name": "Emma Frost",
+    "image": "/static/images/marvel/emma_frost.jpg"
+  },
+  {
+    "name": "Galactus",
+    "image": "/static/images/marvel/galactus.jpg"
+  },
+  {
+    "name": "Gambit",
+    "image": "/static/images/marvel/gambit.jpg"
+  },
+  {
+    "name": "Ghost Rider",
+    "image": "/static/images/marvel/ghost_rider.jpg"
+  },
+  {
+    "name": "Green Goblin",
+    "image": "/static/images/marvel/green_goblin.jpg"
+  },
+  {
+    "name": "Hawkeye",
+    "image": "/static/images/marvel/hawkeye.jpg"
+  },
+  {
+    "name": "Hulk",
+    "image": "/static/images/marvel/hulk.jpg"
+  },
+  {
+    "name": "Human Torch",
+    "image": "/static/images/marvel/human_torch.jpg"
+  },
+  {
+    "name": "Iceman",
+    "image": "/static/images/marvel/iceman.jpg"
+  },
+  {
+    "name": "Invisible Woman",
+    "image": "/static/images/marvel/invisible_woman.jpg"
+  },
+  {
+    "name": "Iron Fist",
+    "image": "/static/images/marvel/iron_fist.jpg"
+  },
+  {
+    "name": "Iron Man",
+    "image": "/static/images/marvel/iron_man.jpg"
+  },
+  {
+    "name": "Jean Grey",
+    "image": "/static/images/marvel/jean_grey.jpg"
+  },
+  {
+    "name": "Loki",
+    "image": "/static/images/marvel/loki.jpg"
+  },
+  {
+    "name": "Luke Cage",
+    "image": "/static/images/marvel/luke_cage.jpg"
+  },
+  {
+    "name": "Magneto",
+    "image": "/static/images/marvel/magneto.jpg"
+  },
+  {
+    "name": "Mr Fantastic",
+    "image": "/static/images/marvel/mr_fantastic.jpg"
+  },
+  {
+    "name": "Ms Marvel",
+    "image": "/static/images/marvel/ms_marvel.jpg"
+  },
+  {
+    "name": "Mystique",
+    "image": "/static/images/marvel/mystique.jpg"
+  },
+  {
+    "name": "Nightcrawler",
+    "image": "/static/images/marvel/nightcrawler.jpg"
+  },
+  {
+    "name": "Professor X",
+    "image": "/static/images/marvel/professor_x.jpg"
+  },
+  {
+    "name": "Psylocke",
+    "image": "/static/images/marvel/psylocke.jpg"
+  },
+  {
+    "name": "Punisher",
+    "image": "/static/images/marvel/punisher.jpg"
+  },
+  {
+    "name": "Red Hulk",
+    "image": "/static/images/marvel/red_hulk.jpg"
+  },
+  {
+    "name": "Red Skull",
+    "image": "/static/images/marvel/red_skull.jpg"
+  },
+  {
+    "name": "Rogue",
+    "image": "/static/images/marvel/rogue.jpg"
+  },
+  {
+    "name": "Sabertooth",
+    "image": "/static/images/marvel/sabertooth.jpg"
+  },
+  {
+    "name": "Scarlet Witch",
+    "image": "/static/images/marvel/scarlet_witch.jpg"
+  },
+  {
+    "name": "She-Hulk",
+    "image": "/static/images/marvel/she-hulk.jpg"
+  },
+  {
+    "name": "Silver Surfer",
+    "image": "/static/images/marvel/silver_surfer.jpg"
+  },
+  {
+    "name": "Spider Woman",
+    "image": "/static/images/marvel/spider_woman.jpg"
+  },
+  {
+    "name": "Spiderman",
+    "image": "/static/images/marvel/spiderman.jpg"
+  },
+  {
+    "name": "Storm",
+    "image": "/static/images/marvel/storm.jpg"
+  },
+  {
+    "name": "Thanos",
+    "image": "/static/images/marvel/thanos.jpg"
+  },
+  {
+    "name": "Thing",
+    "image": "/static/images/marvel/thing.jpg"
+  },
+  {
+    "name": "Thor",
+    "image": "/static/images/marvel/thor.jpg"
+  },
+  {
+    "name": "Venom",
+    "image": "/static/images/marvel/venom.jpg"
+  },
+  {
+    "name": "Wasp",
+    "image": "/static/images/marvel/wasp.jpg"
+  },
+  {
+    "name": "Wolverine",
+    "image": "/static/images/marvel/wolverine.jpg"
+  },
+  {
+    "name": "X-23",
+    "image": "/static/images/marvel/x-23.jpg"
+  }
+]
